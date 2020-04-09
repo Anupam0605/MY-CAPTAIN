@@ -1,0 +1,13 @@
+t = int(input("enter no of terms = "))
+a=0
+b=1
+c=0
+if(t==1):
+    print(a)
+else:
+    while(c<t):
+        print(a)
+        n = a+b
+        a=b
+        b=n
+        c+=1
