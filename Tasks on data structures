@@ -1,0 +1,17 @@
+#Assigning elements to different lists
+list1 = ["john", "mango","orange"]
+list2 = [1,4,5]
+list3 = [1,4, "monty"]
+print(" The elements of first list are = ",list1)
+print("\n the elements of second list are = ",list2)
+print("\n The elements of third list are ",list3)
+print("\n")
+#Accessing elements from a tuple
+t = (1,2,4,3)
+print(t[:-1])
+print("\n")
+#Deleting elements from a dictionary
+d1 = {"name" : "Anupam", "age" : 19, "sports" : "cricket", "hobbies" : "reading books" }
+print("initially = ",d1)
+del d1["hobbies"]
+print("finally =",d1)
